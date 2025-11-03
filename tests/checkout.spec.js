@@ -3,6 +3,7 @@ const { LoginPage } = require('../pages/LoginPage');
 const { InventoryPage } = require('../pages/InventoryPage');
 const { CartPage } = require('../pages/CartPage');
 
+//testing 2
 test.describe('End-to-End Checkout Flow', () => {
   test('User can complete a purchase successfully', async ({ page }) => {
     const loginPage = new LoginPage(page);
